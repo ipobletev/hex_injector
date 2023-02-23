@@ -4,7 +4,7 @@ Use to inject data to a hex file.
 
 Read objetive memory 0x64b24, 25 bytes
 
-    python hex_injector.py -r -dir .pio/build/wiscore_rak4631/firmware.hex -addr 0x64b24 -data 25
+    python hex_injector.py -r -dir .pio/build/wiscore_rak4631/firmware.hex -addr 0x64b24 -data 29
 
 Write in address 0x64b24.
 
@@ -12,4 +12,4 @@ Write in address 0x64b24.
 
 Read objetive memory 0x64b24, 25 bytes
 
-    python hex_injector.py -r -dir .pio/build/wiscore_rak4631/firmware.hex -addr 0x64b24 -data 25
+    python hex_injector.py -r -dir .pio/build/wiscore_rak4631/firmware.hex -addr 0x64b24 -data 29
